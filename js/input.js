@@ -51,7 +51,7 @@
               container
                 .find('.acfgfs-preview')
                 .html(
-                  '<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=' +
+                  '<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=' +
                     font +
                     '"><div style="font-family:' +
                     new_font +
@@ -116,7 +116,7 @@
                   container
                     .find('.acfgfs-preview')
                     .html(
-                      '<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=' +
+                      '<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=' +
                         font +
                         '"><div style="font-family:' +
                         font +
