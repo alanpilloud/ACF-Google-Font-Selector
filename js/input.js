@@ -55,9 +55,7 @@
                     font +
                     '"><div style="font-family:' +
                     new_font +
-                    '">' +
-                    preview_text +
-                    '</div>',
+                    '">This is a preview of the selected font</div>',
                 );
               jQuery('#acfgfs-preview div').html(preview_text);
             },
