@@ -1,0 +1,10 @@
+{
+  "name": "alanpilloud/ACF-Google-Font-Selector",
+  "description": "",
+  "keywords": ["wordpress", "plugin"],
+  "homepage": "https://github.com/alanpilloud/ACF-Google-Font-Selector",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.6"
+  }
+}
