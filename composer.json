@@ -3,6 +3,12 @@
   "description": "",
   "keywords": ["wordpress", "plugin"],
   "homepage": "https://github.com/alanpilloud/ACF-Google-Font-Selector",
+  "authors": [
+    {
+      "name": "Daniel Pataki",
+      "homepage": "https://github.com/danielpataki/ACF-Google-Font-Selector"
+    }
+  ],
   "type": "wordpress-plugin",
   "require": {
     "php": ">=5.6"
