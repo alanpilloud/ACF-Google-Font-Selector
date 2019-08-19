@@ -179,8 +179,8 @@ class acf_field_google_font_selector extends acf_field {
 
 		$dir = plugin_dir_url( __FILE__ );
 
-		wp_enqueue_script( 'acf-input-google_font_selector', "{$dir}js/input.js" );
-		wp_enqueue_style( 'acf-input-google_font_selector', "{$dir}css/input.css" );
+		wp_enqueue_script( 'acf-input-google_font_selector', "{$dir}js/input.js", null, '1.0.0');
+		wp_enqueue_style( 'acf-input-google_font_selector', "{$dir}css/input.css", null, '1.0.0');
 
 	}
 
