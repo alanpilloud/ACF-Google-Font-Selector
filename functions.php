@@ -211,7 +211,7 @@ function acfgfs_retrieve_fonts() {
         set_transient( 'acfgfs_fonts', $response, $timeout );
     }
 
-    return $request;
+    return $response;
 
 }
 
