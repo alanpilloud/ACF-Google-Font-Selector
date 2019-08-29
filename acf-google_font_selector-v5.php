@@ -38,7 +38,7 @@ class acf_field_google_font_selector extends acf_field {
 		$this->defaults = array(
 			'include_web_safe_fonts' => true,
 			'enqueue_font'           => true,
-			'default_font'           => 'Droid Sans',
+			'default_font'           => 'Roboto',
 		);
 
     	parent::__construct();
