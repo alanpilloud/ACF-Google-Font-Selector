@@ -23,6 +23,8 @@
   *
   */
  function acfgfs_get_fonts_to_enqueue() {
+     add_filter('acf/settings/current_language', 'cl_acf_set_language', 100);
+
      if( is_singular() ) {
          global $post;
          $post_fields = get_field_objects( $post->ID );
@@ -39,6 +41,8 @@
      }
 
      $font_fields = apply_filters( 'acfgfs/enqueued_fonts', $font_fields );
+
+     remove_filter('acf/settings/current_language', 'cl_acf_set_language', 100);
 
      return $font_fields;
  }
