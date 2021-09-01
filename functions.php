@@ -11,6 +11,9 @@
  *
  */
 
+function gfs_cl_acf_set_language() {
+    return acf_get_setting('default_language');
+}
 
  /**
   * Get Fonts To Enqueue
@@ -23,7 +26,7 @@
   *
   */
  function acfgfs_get_fonts_to_enqueue() {
-     add_filter('acf/settings/current_language', 'cl_acf_set_language', 100);
+     add_filter('acf/settings/current_language', 'gfs_cl_acf_set_language', 100);
 
      if( is_singular() ) {
          global $post;
@@ -42,7 +45,7 @@
 
      $font_fields = apply_filters( 'acfgfs/enqueued_fonts', $font_fields );
 
-     remove_filter('acf/settings/current_language', 'cl_acf_set_language', 100);
+     remove_filter('acf/settings/current_language', 'gfs_cl_acf_set_language', 100);
 
      return $font_fields;
  }
